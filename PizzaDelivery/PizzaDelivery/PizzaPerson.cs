@@ -14,14 +14,14 @@ namespace PizzaDelivery
         public Customer Customer { get; set; }
         public int NumbeOfUnits { get; set; }
         public int Cost { get; set; }
-        public PizzaPerson(string Type, string Size, string Toppings,Customer cus,int units,int price)
+        public PizzaPerson(string Type, string Size, string Toppings,Customer Cus,int Units,int Price)
         {
             this.Type = Type;
             this.Size = Size;
             this.Toppings = Toppings;
-            Customer = cus;
-            NumbeOfUnits = units;
-            Cost = price;
+            Customer = Cus;
+            NumbeOfUnits = Units;
+            Cost = Price;
 
         }
 
