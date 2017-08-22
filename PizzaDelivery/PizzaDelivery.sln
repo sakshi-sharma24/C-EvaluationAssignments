@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDelivery", "PizzaDelivery\PizzaDelivery.csproj", "{B8FDF6CA-D97F-45F1-A866-C7C55730F73B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderDetailsTesting", "OrderDetailsTesting\OrderDetailsTesting.csproj", "{97FDE453-B1B4-4088-A169-885442B65E70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8FDF6CA-D97F-45F1-A866-C7C55730F73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FDF6CA-D97F-45F1-A866-C7C55730F73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FDF6CA-D97F-45F1-A866-C7C55730F73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FDF6CA-D97F-45F1-A866-C7C55730F73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FDE453-B1B4-4088-A169-885442B65E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FDE453-B1B4-4088-A169-885442B65E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FDE453-B1B4-4088-A169-885442B65E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FDE453-B1B4-4088-A169-885442B65E70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
