@@ -8,17 +8,17 @@ namespace PizzaDelivery
 {
     public class Customer
     {
-        public string _firstname { get; set; }
-        public string _lastname { get; set; }
-        public long _mobileNumber { get; set; }
-        public string _address { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public long MobileNumber { get; set; }
+        public string Address { get; set; }
 
         public Customer(string FirstName,string LastName, long ContactNumber, string Address)
         {
-            _firstname = FirstName;
-            _lastname = LastName;
-            _mobileNumber = ContactNumber;
-            _address = Address;
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            MobileNumber = ContactNumber;
+            this.Address = Address;
         }
     }
 }
